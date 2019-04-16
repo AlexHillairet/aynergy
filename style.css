@@ -1,0 +1,26 @@
+body
+{
+    background-color: blue;
+
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px; 
+}
+.header div
+{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.header div:hover
+{
+    background-color: green;
+    
+}
