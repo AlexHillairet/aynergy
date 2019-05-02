@@ -1,8 +1,10 @@
 body
 {
-    background-color: blue;
+    background-color: white;
 
 }
+
+/* HEADER */
 
 .header
 {
@@ -11,6 +13,8 @@ body
     justify-content: space-around;
     align-items: center;
     height: 60px; 
+    font-family: "Raleway";
+    background-color: #E5F2F8;
 }
 .header div
 {
@@ -21,6 +25,24 @@ body
 
 .header div:hover
 {
-    background-color: green;
+    height: 100px;
+    font-weight: bold;
+    background-color: white;
+    color: #2E7698;
     
+}
+
+/* ABOUT */
+.about
+{
+    margin: 20px 50px 20px 50px;
+    text-align: center;
+    background-color: #6CB6E0;
+    
+}
+
+.about-us
+{
+    background-color: #E5F2F8;
+    font-family: "Raleway";
 }
